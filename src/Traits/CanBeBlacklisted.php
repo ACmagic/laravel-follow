@@ -27,7 +27,7 @@ trait CanBeBlacklisted
      */
     public function isBlacklistedBy($user)
     {
-        return Follow::isRelationExists($this, 'bookmarkers', $user);
+        return Follow::isRelationExists($this, 'blacklisters', $user);
     }
 
     /**
