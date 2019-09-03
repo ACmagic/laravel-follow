@@ -44,6 +44,8 @@ class Follow
 
     const RELATION_DOWNVOTE = 'downvote';
 
+    const RELATION_BLACKLIST= 'blacklist';
+
     const RELATION_TYPES = [
         'likes' => 'like',
         'likers' => 'like',
@@ -60,6 +62,8 @@ class Follow
         'upvoters' => 'upvote',
         'downvotes' => 'downvote',
         'downvoters' => 'downvote',
+        'blacklisters' => 'blacklist',
+        'blacklists' => 'blacklist',
     ];
 
     /**
